@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/jsp"
+		auth="Container"
+		type="javax.sql.DataSource"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/jsp?serverTimezone=UTC&amp;useUnicode=true&amp;characterEncoding=UTF-8"
+		username="root"
+		password="tiger123"
+		maxTotal="16"
+		maxIdle="4"
+		maxWaitMillis="-1" />
+</Context>
